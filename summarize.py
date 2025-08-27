@@ -1,4 +1,10 @@
-URL = "https://icml.cc/virtual/2025/workshop/39950"
+import sys
+
+if len(sys.argv) < 2:
+    print("Usage: python script.py <URL>")
+    sys.exit(1)
+
+URL = sys.argv[1]
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
