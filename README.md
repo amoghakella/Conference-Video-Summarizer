@@ -68,7 +68,7 @@ pip install selenium pillow pytesseract openai anthropic
 Run the summarizer with:
 
 ```bash
-python summarize_slides.py "https://icml.cc/virtual/2025/workshop/39950"
+python summarize.py "https://icml.cc/virtual/2025/workshop/39950"
 ```
 
 ---
