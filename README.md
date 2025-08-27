@@ -68,19 +68,7 @@ pip install selenium pillow pytesseract openai anthropic
 Run the summarizer with:
 
 ```bash
-python summarizer.py
-```
-
-By default, it processes this ICML 2025 workshop presentation:
-
-```
-https://icml.cc/virtual/2025/workshop/39950
-```
-
-To analyze a different presentation, edit the `URL` variable at the top of `summarizer.py`:
-
-```python
-URL = "https://icml.cc/virtual/2025/workshop/39950"
+python summarize_slides.py "https://icml.cc/virtual/2025/workshop/39950"
 ```
 
 ---
