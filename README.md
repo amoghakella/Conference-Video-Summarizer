@@ -99,3 +99,14 @@ For best results:
 * The script launches Chrome and interacts with slides automatically.
 * Summaries are generated with **Claude**, so Anthropic API credits are required.
 * OCR results may vary depending on slide formatting.
+
+Here are the improvements in summarizer_robust.py relative to summarizer.py.
+* Improve error handling and produce meaningful messages instead of crashing.
+* Organize the code into modular functions.
+* Add checks for missing dependencies, invalid credentials, invalid URLs, API errors, and Selenium issues.
+* Make the flow clearer and shorter while preserving existing functionality.
+
+Here are the improvements in summarizer_faster.py relative to summarizer_robust.py. 
+* Adding parallel Claude API calls to speed up summarization. 
+* Caching OCR results to skip reprocessing slides.
+* Adding logging and a progress bar for better usability.
