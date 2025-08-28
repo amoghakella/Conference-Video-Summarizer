@@ -1,6 +1,6 @@
 # Conference Video Summarizer
 
-This project automates the extraction and summarization of conference slide presentations. It uses **Selenium** to navigate and capture slides, **OCR (Tesseract)** to extract text, and **Anthropic’s Claude API** to generate concise 2–3 paragraph summaries of the presentations.
+This project automates the extraction and summarization of conference slide presentations. It uses **Selenium** to navigate and capture slides, **OCR (Tesseract)** to extract text, and **Anthropic’s Claude API** to generate concise 2–3 paragraph summaries of the presentations. This is based on my internship work at RelationalAI. 
 
 ---
 
