@@ -21,12 +21,6 @@ This project automates the extraction and summarization of conference slide pres
 Install all required dependencies with:
 
 ```bash
-pip install -r requirements.txt
-```
-
-If you don’t want to use `requirements.txt`, you can install packages manually:
-
-```bash
 pip install selenium pillow pytesseract openai anthropic
 ```
 
@@ -59,23 +53,19 @@ pip install selenium pillow pytesseract openai anthropic
    )
    ```
 
-3. (Optional) If a site requires authentication, update the `login_to_icml()` function with your conference credentials.
-
----
-
 ## Usage
 
 Run the summarizer with:
 
 ```bash
-python summarize.py "https://icml.cc/virtual/2025/workshop/39950"
+python summarize.py
 ```
 
 ---
 
 ## Example Output
 
-When successful, the script prints summaries of each detected slideshow:
+When successful, the script prints summaries of each detected slideshow in the conference:
 
 ```
 Summary of slideshow 1:
